@@ -15,7 +15,7 @@ RewriteRule (.*) - [NC,L]
 
 # Rewrite 1 - For request via www.student.bth.se
 RewriteCond %{HTTP_HOST} ^www\.student\.bth\.se$ [NC]
-RewriteRule ^image/(.*)$ /~mlisj18/dbwebb-kurser/design/me/redovisa/htdocs/cimage/img.php?src=$1 [QSA,NC,L]
+RewriteRule ^image/(.*)$ /~lisj18/dbwebb-kurser/design/me/redovisa/htdocs/cimage/img.php?src=$1 [QSA,NC,L]
 
 RewriteCond %{HTTP_HOST} ^www\.student\.bth\.se$ [NC]
 RewriteRule (.*) /~lisj18/dbwebb-kurser/design/me/redovisa/htdocs/index.php/$1 [NC,L]
@@ -23,7 +23,7 @@ RewriteRule (.*) /~lisj18/dbwebb-kurser/design/me/redovisa/htdocs/index.php/$1 [
 
 # Rewrite 2 - For other requests
 RewriteCond %{HTTP_HOST} !^www\.student\.bth\.se$ [NC]
-RewriteRule ^image/(.*)$ cimage/img.php?src=$1 [QSA,NC,L] 
+RewriteRule ^image/(.*)$ cimage/img.php?src=$1 [QSA,NC,L]
 
 RewriteCond %{HTTP_HOST} !^www\.student\.bth\.se$ [NC]
 RewriteRule (.*) index.php/$1 [NC,L]
