@@ -1,3 +1,3 @@
-#### Footer col 2
+#### Andra användbara länkar
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+[Färgkoder](https://www.rapidtables.com/web/color/RGB_Color.html)

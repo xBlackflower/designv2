@@ -1,3 +1,5 @@
-#### Footer col 3
+#### Kontaktuppgifter
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Liselotte Westlin
+
+lotta_w@live.se

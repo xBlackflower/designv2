@@ -1,3 +1,3 @@
 #### Redovisa på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](XXX).
+För att se vad jag har gjort i kursen så kan man göra det via denna länk [repot för me/redovisa på GitHub](https://github.com/xBlackflower/designv2).

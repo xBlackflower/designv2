@@ -1,1 +1,1 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+<p>Copyright &copy; xBlackflower 2018</p>
