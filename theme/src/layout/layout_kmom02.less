@@ -1,0 +1,163 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+@bgColorHeaderFooter: beige;
+
+/**
+ * General layout
+ */
+
+ /**
+  * Header layout
+  */
+ .site-logo {
+     display: none;
+ }
+
+ .region-header {
+     background-color: @bgColorHeaderFooter;
+ }
+
+ .outer-wrap.outer-wrap-header {
+     max-width: 100%;
+     overflow: auto;
+     background-color: @bgColorHeaderFooter;
+ }
+
+ .region-header-col-1,
+ .region-header-col-3 {
+     width: 20%;
+     float: left;
+ }
+
+ .region-header-col-2 {
+     width: 60%;
+     float: left;
+     text-align: center;
+ }
+
+ .outer-wrap-flash {
+     padding-bottom: 5px;
+ }
+
+ /**
+  * Main layout
+  */
+.outer-wrap {
+    padding-top: 3px;
+    padding-bottom: 5px;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.figure.right {
+    float: right;
+}
+
+.region-main {
+    display: inline;
+    float: left;
+    width: 75%;
+    margin-left: 10%;
+
+    &.has-sidebar {
+        width: 70%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    &.has-sidebar-left.has-sidebar-right {
+        width: 50%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 25%;
+    margin-left: 1%;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
+.previous {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+
+    &:visited {
+        color: green;
+    }
+    &:hover {
+        color: red;
+    }
+}
+
+.figure.left {
+    float: left;
+    margin: 0;
+    padding: 0em 0.5em 1em 0.5em;
+}
+
+.block {
+    clear: both;
+}
+
+.author-byline {
+    display: block;
+    width: 50%;
+    margin-left: 20%;
+    border: 1px solid black;
+    padding: 1em 1em 2em;
+}
+
+/**
+ * Footer layout
+ */
+.region-footer {
+    clear: both;
+    background-color: @bgColorHeaderFooter;
+    padding-bottom: 5px;
+}
+
+.footer-column-wrapper {
+    margin-left: 2%;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.site-footer {
+    clear: both;
+}
+
+.block.site-footer {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.region-footer a {
+    text-decoration: underline;
+}
