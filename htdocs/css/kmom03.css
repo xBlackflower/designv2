@@ -4929,7 +4929,7 @@ img {
  * Layout with vgrid.
  */
 /**
- * VariablesFDFDE1
+ * Variables
  */
 /**
  * General layout
@@ -4947,8 +4947,8 @@ img {
   clear: both;
 }
 /**
-  * Header layout
-  */
+ * Header layout
+ */
 .site-logo {
   display: none;
 }
@@ -5022,13 +5022,6 @@ img {
 /**
   * Main layout
   */
-/*.outer-wrap {
-    //padding-top: 3px;
-    //padding-bottom: 5px;
-    //max-width: 70%;
-    //margin: 0 auto;
-    background-color: aliceblue;
-}*/
 .figure {
   margin-left: 0em;
 }
@@ -5078,10 +5071,6 @@ img {
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
 }
-/*.region-sidebar-right {
-    #desinax-vgrid.push(1);
-    //width: 20%;
-}*/
 .region-sidebar-left.has-sidebar-right,
 .region-sidebar-right.has-sidebar-left {
   display: inline;
