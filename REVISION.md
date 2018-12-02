@@ -3,13 +3,17 @@ Revision history
 
 
 
+v3.0.0 (2018-12-02)
+-----------------------
+* Done with style for kmom03.
+
 v2.0.0 (2018-11-22)
 -----------------------
-Done with style for kmom02.
+* Done with style for kmom02.
 
 v1.0.1 (2018-11-15)
 -----------------------
-Done with first atempt for style, kmom01.
+* Done with first atempt for style, kmom01.
 
 v1.0.0 (2018-11-11)
 -----------------------

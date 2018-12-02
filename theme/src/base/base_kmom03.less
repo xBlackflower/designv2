@@ -1,0 +1,34 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #616060; //skyblue; //#424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+
+
+// Adapt the typographic  grid to my style
+@fontFamilyHeadings: 'Oleo Script', cursive;
+@fontFamilyBody:     'Courgette', cursive; //font-family: 'Special Elite', cursive;
+@fontFamilyCode:     "monospace";
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+// Activate the grid base font
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+img {
+    max-width: 100%;
+}
