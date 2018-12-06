@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom04 dark.
+ * Stylesheet for design kmom04 minimalistic.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
@@ -4609,7 +4609,7 @@ html {
   background-color: #321900;
 }
 body {
-  font: 20px/1.2 'Rokkitt', serif;
+  font: 16px/1.5 'Exo', sans-serif;
 }
 h1,
 h2,
@@ -4617,7 +4617,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rokkitt', serif;
+  font-family: 'Exo', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4631,7 +4631,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.01052632;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -4649,7 +4649,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.28;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #666;
@@ -4659,7 +4659,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.37142857;
+  line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #666;
@@ -4669,7 +4669,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.6;
+  line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #666;
@@ -4679,7 +4679,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.92;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #666;
 }
@@ -4688,7 +4688,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.92;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #666;
 }
@@ -4838,7 +4838,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.37142857;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -4962,10 +4962,10 @@ img {
   display: none;
 }
 .rm-desktop li {
-  background-color: #321900;
+  background-color: #6D7A7F;
 }
 .region-header {
-  background-color: #321900;
+  background-color: #6D7A7F;
 }
 .inner-wrap {
   margin-right: auto;
@@ -4973,13 +4973,13 @@ img {
   max-width: 1100px;
 }
 .inner-wrap {
-  background-color: #402000;
+  background-color: #D9F5FF;
 }
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #321900;
+  background-color: #6D7A7F;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5156,7 +5156,7 @@ p {
 }
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background-color: #321900;
+  background-color: #6D7A7F;
 }
 /**
  * Layout for responsive style through media queries.
@@ -5337,22 +5337,26 @@ p {
  * My own settings, not currently in their own module.
  */
 @font-face {
-  font-family: 'Rokkitt';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Rokkitt Light'), local('Rokkitt-Light'), url(https://fonts.gstatic.com/s/rokkitt/v12/qFdB35qfgYFjGy5hmO2gY9fqwg.ttf) format('truetype');
+  font-family: 'Exo';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Exo Medium Italic'), local('Exo-MediumItalic'), url(https://fonts.gstatic.com/s/exo/v7/4UaBrEtFpBISdkZS8yLvx60.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Rokkitt';
+  font-family: 'Exo';
   font-style: normal;
-  font-weight: 600;
-  src: local('Rokkitt SemiBold'), local('Rokkitt-SemiBold'), url(https://fonts.gstatic.com/s/rokkitt/v12/qFdB35qfgYFjGy5hmJmmY9fqwg.ttf) format('truetype');
+  font-weight: 400;
+  src: local('Exo Regular'), local('Exo-Regular'), url(https://fonts.gstatic.com/s/exo/v7/4UaOrEtFpBISfX6m.ttf) format('truetype');
+}
+html {
+  background-color: #6D7A7F;
 }
 body {
-  color: #FF851B;
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: 300;
+  color: #46707F;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  background-image: linear-gradient(#71B3CC, #46707F);
 }
 h1,
 h2,
@@ -5360,18 +5364,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600;
+  font-weight: 500;
+  font-style: italic;
+}
+.region-header,
+.region-footer {
+  color: #2A434C;
 }
 a {
   text-decoration: none;
-  color: green;
+  color: #2A434C;
 }
 a:visited {
-  color: green;
+  color: #2A434C;
 }
 a:hover {
   color: #FF851B;
 }
-.flash_overlay {
-  background-color: rgba(50, 25, 0, 0);
+.rm-mobile a {
+  color: #46707F;
 }

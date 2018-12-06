@@ -1,0 +1,65 @@
+/*!
+ * Stylesheet for design kmom04 minimalistic.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+@import "kmom04.less";
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,500i&subset=latin-ext');
+
+@fontFamilyHeadings: 'Exo', sans-serif;
+@fontFamilyBody:     'Exo', sans-serif;
+@bgColorHtml: #321900;
+@bgColorHeaderFooter: #6D7A7F;
+@bgColorMain: #D9F5FF;
+@fontSizeBody: 16px;
+@fontColor: #46707F;
+@fontColorHeadFooter: #2A434C;
+
+@colorH1BorderBottom: #666;
+@colorH2BorderBottom: #666;
+@colorH3BorderBottom: #666;
+@colorH4BorderBottom: #666;
+@colorH5BorderBottom: #666;
+@colorH6BorderBottom: #666;
+
+@bgColorHr: #fff;
+
+html {
+    background-color: @bgColorHeaderFooter;
+}
+
+body {
+    color: @fontColor;
+    font-size: @fontSizeBody;
+    line-height: 1.5;
+    font-weight: 400;
+    background-image: linear-gradient(#71B3CC, #46707F);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.region-header,
+.region-footer {
+    color: @fontColorHeadFooter;
+}
+
+a {
+    text-decoration: none;
+    color: @fontColorHeadFooter;
+
+    &:visited {
+        color: @fontColorHeadFooter;
+    }
+    &:hover {
+        color: #FF851B;
+    }
+}
+
+.rm-mobile a {
+    color: @fontColor;
+}

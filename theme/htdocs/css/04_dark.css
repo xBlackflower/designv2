@@ -4609,7 +4609,7 @@ html {
   background-color: #321900;
 }
 body {
-  font: 20px/1.2 'Rokkitt', serif, 300;
+  font: 20px/1.2 'Rokkitt', serif;
 }
 h1,
 h2,
@@ -4617,7 +4617,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rokkitt', serif, 600;
+  font-family: 'Rokkitt', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5354,8 +5354,13 @@ body {
   line-height: 1.2;
   font-weight: 300;
 }
-.region-footer h4 {
-  font-size: 1em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
 }
 a {
   text-decoration: none;
@@ -5366,4 +5371,7 @@ a:visited {
 }
 a:hover {
   color: #FF851B;
+}
+.flash_overlay {
+  background-color: rgba(50, 25, 0, 0);
 }
