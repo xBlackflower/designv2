@@ -5164,13 +5164,13 @@ p {
 /**
  * Navbar
  */
-@media screen and (max-width: 1000px) {
-  .rm-default a {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-}
-@media screen and (max-width: 940px) {
+/*@media screen and (max-width: 1000px) {
+    .rm-default a {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}*/
+@media screen and (max-width: 1180px) {
   .region-header-col-1,
   .region-header-col-3 {
     width: 15%;
@@ -5179,7 +5179,7 @@ p {
     width: 70%;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 965px) {
   .rm-desktop {
     display: none;
   }

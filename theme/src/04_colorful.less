@@ -1,0 +1,57 @@
+/*!
+ * Stylesheet for design kmom04 colorful.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+@import "kmom04.less";
+
+@import url('https://fonts.googleapis.com/css?family=Combo&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Ribeye+Marrow&subset=latin-ext');
+
+@fontFamilyHeadings: 'Ribeye Marrow', cursive;
+@fontFamilyBody:     'Combo', cursive;
+@bgColorHtml: #9E31B2;
+@bgColorHeaderFooter: #9E31B2;
+@bgColorMain: #E65FFF;
+@fontSizeBody: 20px;
+@fontColor: #2A434C;
+
+@colorH1BorderBottom: #FFC52C;
+@colorH2BorderBottom: #FFC52C;
+@colorH3BorderBottom: #FFC52C;
+@colorH4BorderBottom: #FFC52C;
+@colorH5BorderBottom: #FFC52C;
+@colorH6BorderBottom: #FFC52C;
+
+@bgColorHr: #fff;
+
+body {
+    color: @fontColor;
+    font-size: @fontSizeBody;
+    line-height: 1.2;
+    font-weight: 400;
+    background-image: linear-gradient(#37CC9E, #39B28D);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    font-style: italic;
+    color: #FFC52C;
+}
+
+a {
+    text-decoration: none;
+    color: @fontColor;
+
+    &:visited {
+        color: @fontColor;
+    }
+    &:hover {
+        color: #FFC52C;
+    }
+}
+
+.rm-mobile a {
+    color: @fontColor;
+}

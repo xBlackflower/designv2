@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom04 minimalistic.
+ * Stylesheet for design kmom04 colorful.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
@@ -4606,10 +4606,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #321900;
+  background-color: #9E31B2;
 }
 body {
-  font: 16px/1.5 'Exo', sans-serif;
+  font: 20px/1.2 'Combo', cursive;
 }
 h1,
 h2,
@@ -4617,7 +4617,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Ribeye Marrow', cursive;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4631,9 +4631,9 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.26315789;
+  line-height: 1.01052632;
   font-weight: normal;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #FFC52C;
   margin-bottom: 23px;
 }
 h1 ~ h1,
@@ -4649,48 +4649,48 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.6;
+  line-height: 1.28;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #FFC52C;
 }
 h2 + h3 {
   margin-top: 24px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.71428571;
+  line-height: 1.37142857;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #FFC52C;
 }
 h3 + h4 {
   margin-top: 24px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #FFC52C;
 }
 h4 + h5 {
   margin-top: 24px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.2;
+  line-height: 1.92;
   margin-bottom: 23px;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #FFC52C;
 }
 h5 + h6 {
   margin-top: 24px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.2;
+  line-height: 1.92;
   margin-bottom: 23px;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #FFC52C;
 }
 p {
   margin-bottom: 24px;
@@ -4838,7 +4838,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.71428571;
+  line-height: 1.37142857;
   text-align: left;
   font-style: italic;
 }
@@ -4962,10 +4962,10 @@ img {
   display: none;
 }
 .rm-desktop li {
-  background-color: #6D7A7F;
+  background-color: #9E31B2;
 }
 .region-header {
-  background-color: #6D7A7F;
+  background-color: #9E31B2;
 }
 .inner-wrap {
   margin-right: auto;
@@ -4973,13 +4973,13 @@ img {
   max-width: 1100px;
 }
 .inner-wrap {
-  background-color: #D9F5FF;
+  background-color: #E65FFF;
 }
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #6D7A7F;
+  background-color: #9E31B2;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5156,7 +5156,7 @@ p {
 }
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background-color: #6D7A7F;
+  background-color: #9E31B2;
 }
 /**
  * Layout for responsive style through media queries.
@@ -5337,26 +5337,23 @@ p {
  * My own settings, not currently in their own module.
  */
 @font-face {
-  font-family: 'Exo';
-  font-style: italic;
-  font-weight: 500;
-  src: local('Exo Medium Italic'), local('Exo-MediumItalic'), url(https://fonts.gstatic.com/s/exo/v7/4UaBrEtFpBISdkZS8yLvx60.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Exo';
+  font-family: 'Combo';
   font-style: normal;
   font-weight: 400;
-  src: local('Exo Regular'), local('Exo-Regular'), url(https://fonts.gstatic.com/s/exo/v7/4UaOrEtFpBISfX6m.ttf) format('truetype');
+  src: local('Combo'), local('Combo-Regular'), url(https://fonts.gstatic.com/s/combo/v7/BXRlvF3Jh_fIhj0rDOs.ttf) format('truetype');
 }
-html {
-  background-color: #6D7A7F;
+@font-face {
+  font-family: 'Ribeye Marrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ribeye Marrow'), local('RibeyeMarrow-Regular'), url(https://fonts.gstatic.com/s/ribeyemarrow/v7/GFDsWApshnqMRO2JdtRZ2d0vIAUZUQ.ttf) format('truetype');
 }
 body {
-  color: #46707F;
-  font-size: 16px;
-  line-height: 1.5;
+  color: #2A434C;
+  font-size: 20px;
+  line-height: 1.2;
   font-weight: 400;
-  background-image: linear-gradient(#71B3CC, #46707F);
+  background-image: linear-gradient(#37CC9E, #39B28D);
 }
 h1,
 h2,
@@ -5366,10 +5363,7 @@ h5,
 h6 {
   font-weight: 500;
   font-style: italic;
-}
-.region-header,
-.region-footer {
-  color: #2A434C;
+  color: #FFC52C;
 }
 a {
   text-decoration: none;
@@ -5379,8 +5373,8 @@ a:visited {
   color: #2A434C;
 }
 a:hover {
-  color: #FF851B;
+  color: #FFC52C;
 }
 .rm-mobile a {
-  color: #46707F;
+  color: #2A434C;
 }
