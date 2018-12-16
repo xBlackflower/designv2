@@ -5367,14 +5367,18 @@ h6 {
 }
 a {
   text-decoration: none;
-  color: #2A434C;
+  color: #39B28D;
 }
 a:visited {
-  color: #2A434C;
+  color: #39B28D;
 }
 a:hover {
   color: #FFC52C;
 }
 .rm-mobile a {
   color: #2A434C;
+}
+.region-header,
+.region-footer {
+  color: #39B28D;
 }

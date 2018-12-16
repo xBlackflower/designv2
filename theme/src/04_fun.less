@@ -1,0 +1,94 @@
+/*!
+ * Stylesheet for design kmom04 fun.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+@import "kmom04.less";
+
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+
+@font-face {
+    font-family: Merry Xmas;
+    src: url(Merry Xmas.ttf);
+}
+
+@fontFamilyBody:     'Mountains of Christmas', cursive;
+@bgColorHtml: #9E31B2;
+@bgColorHeaderFooter: red;
+@fontSizeBody: 20px;
+@fontColor: darkgreen;
+
+@colorH1BorderBottom: #FFC52C;
+@colorH2BorderBottom: #FFC52C;
+@colorH3BorderBottom: #FFC52C;
+@colorH4BorderBottom: #FFC52C;
+@colorH5BorderBottom: #FFC52C;
+@colorH6BorderBottom: #FFC52C;
+
+@bgColorHr: #fff;
+
+html {
+    color: @fontColor;
+    font-size: @fontSizeBody;
+    line-height: 1.2;
+    font-weight: 400;
+    background-image: url(../img/red.jpg);
+}
+
+.inner-wrap.inner-wrap-main,
+.inner-wrap-breadcrumb {
+    background-image: url(../img/gold.jpg);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Mountains of Christmas';
+    font-weight: 500;
+    color: @fontColor;
+}
+
+h1 {
+    font-family: 'Merry Xmas', cursive;
+    color: @fontColor;
+    line-height: 2.4;
+}
+
+a {
+    text-decoration: none;
+    color: @fontColor;
+
+    &:visited {
+        color: @fontColor;
+    }
+    &:hover {
+        color: #FFC52C;
+    }
+}
+
+.rm-mobile a {
+    color: @fontColor;
+}
+
+.region-header,
+.region-footer {
+    color: @fontColor;
+}
+
+.car {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 10s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 750px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 750px;}
+}

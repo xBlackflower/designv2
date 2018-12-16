@@ -31,6 +31,30 @@ return [
                         "url" => "redovisning/kmom02",
                         "title" => "Redovisning för kmom02.",
                     ],
+                    [
+                        "text" => "Kmom03",
+                        "url" => "redovisning/kmom03",
+                        "title" => "Redovisning för kmom03.",
+                    ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporter för kursmomenten.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "04_fargschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport färglära.",
+                    ],
                 ],
             ],
         ],
@@ -53,6 +77,11 @@ return [
             "text" => "Testsida",
             "url" => "test",
             "title" => "Testsida att testa olika konstruktioner.",
+        ],
+        [
+            "text" => "Fun",
+            "url" => "fun",
+            "title" => "Min julsida.",
         ],
     ],
 ];

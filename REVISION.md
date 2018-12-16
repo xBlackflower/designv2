@@ -3,9 +3,9 @@ Revision history
 
 
 
-v4.0.1 (2018-12-06)
+v4.0.1 (2018-12-16)
 -----------------------
-* Minimalistic theme for kmom04 ready.
+* All themes for kmom04 ready.
 
 v4.0.0 (2018-12-05)
 -----------------------

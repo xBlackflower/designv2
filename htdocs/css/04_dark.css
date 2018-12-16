@@ -5362,6 +5362,9 @@ h5,
 h6 {
   font-weight: 600;
 }
+.region-flash img {
+  opacity: 0.4;
+}
 a {
   text-decoration: none;
   color: green;
