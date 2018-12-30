@@ -29,7 +29,7 @@ Till denna julen har jag till och med köpt en plastgran vilket jag aldrig trodd
 blir det som sagt plastgran.
 
 <div class="car">
-    <img src="img/ChristmasCar04.png" class="julbil" alt="Bild på en julbil">
+    <img src="img/ChristmasCar.png" class="julbil" alt="Bild på en julbil">
 </div>
 <a href='https://www.freepik.com/free-vector/red-geometrical-halftone-curved-star-pattern-background_1464888.htm'>Designed by Davidzydd</a>
 <a href="https://www.freepik.com/free-vector/snowflakes-on-a-blue-bokeh-background_827637.htm">Designed by Kjpargeter</a>

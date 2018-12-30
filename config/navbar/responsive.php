@@ -93,5 +93,10 @@ return [
             "url" => "fun",
             "title" => "Min julsida.",
         ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Min bildblogg.",
+        ],
     ],
 ];

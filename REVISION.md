@@ -3,6 +3,10 @@ Revision history
 
 
 
+v5.0.0 (2018-12-30)
+-----------------------
+* The blogg for kmom05 is ready.
+
 v4.0.1 (2018-12-16)
 -----------------------
 * All themes for kmom04 ready.

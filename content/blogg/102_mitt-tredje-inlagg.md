@@ -1,30 +1,30 @@
 ---
-author: mos
+author: lw
 category:
     - utbildning
-    - kursnyheter
-published: "2018-12-03"
+    - Bildblogg
+published: "2018-12-30"
 ---
-Mitt tredje inlägg
+Flygande hund
 ==================================
 
-Nu har jag koll på läget, men jag måste skriva lite bättre och "catchy" rubriker.
+En snöig bild från förra vintern.
 
-Annars kommer ingen läsa min blogg.
+[FIGURE src="image/flygande_hund.jpg?w=800" caption="Lipton springer i snön förra vintern."]
 
 <!--more-->
 
-Man bör skriva intressanta texter, då får man fler läsare, visst är det så?
+Vi hoppas på minst lika mycket snö som det var förra vintern. Det är kul att vara ute och springa i snön.
 
 
 
-Rubrik 2 {#anchor-hit}
+Full fart i snön {#anchor-hit}
 -----------------------------------
 
-Text.
+[FIGURE src="image/flygande_hund.jpg?h=400&area=0,0,50,0&sharpen" alt="Lipton ute i snön" caption="Bilden är beskuren nertill."]
 
+[FIGURE src="image/flygande_hund.jpg?h=600&area=0,0,50,0&f=grayscale" alt="Lipton ute i snön" class="figure right" caption="Bilden är i gråskala och beskuren nertill."]
 
+[FIGURE src="image/flygande_hund.jpg?h=600&crop-to-fit&area=25,25,55,25&sharpen" alt="Lipton ute i snön" class="figure left" caption="Bilden är kraftigt beskuren för att fokusera på den flygande hunden."]
 
-### Rubrik 3 {#vad-som}
-
-Text.
+[FIGURE src="image/flygande_hund.jpg?h=600&area=0,0,50,0&f=edgedetect" alt="Lipton ute i snön" class="figure center" caption="Filtret edgdetect är använt på bilden."]

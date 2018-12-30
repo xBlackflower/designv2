@@ -1,65 +1,107 @@
 /*!
- * Stylesheet for design kmom04 minimalistic.
+ * Stylesheet for design kmom05.
  *
- * This stylesheet is for the design course and kmom04 where we use LESS.
+ * This stylesheet is for the design course and kmom05 where we use LESS.
  */
 
-@import "kmom04.less";
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
 
-@import url('https://fonts.googleapis.com/css?family=Exo:400,500i&subset=latin-ext');
 
-@fontFamilyHeadings: 'Exo', sans-serif;
-@fontFamilyBody:     'Exo', sans-serif;
-@bgColorHtml: #321900;
-@bgColorHeaderFooter: #6D7A7F;
-@bgColorMain: #D9F5FF;
-@fontSizeBody: 16px;
-@fontColor: #46707F;
-@fontColorHeadFooter: #2A434C;
 
-@colorH1BorderBottom: #666;
-@colorH2BorderBottom: #666;
-@colorH3BorderBottom: #666;
-@colorH4BorderBottom: #666;
-@colorH5BorderBottom: #666;
-@colorH6BorderBottom: #666;
+ /**
+  * Figure and figcaption for images and other media using figure/figcaption
+  */
+ @import "@desinax/figure/less/asciinema.less";
+ @import "@desinax/figure/less/codepen.less";
+ @import "@desinax/figure/less/figure.less";
 
-@bgColorHr: #fff;
 
-html {
-    background-color: @bgColorHeaderFooter;
-}
 
-body {
-    color: @fontColor;
-    font-size: @fontSizeBody;
-    line-height: 1.5;
-    font-weight: 400;
-    background-image: linear-gradient(#71B3CC, #46707F);
-}
+ /**
+  * Font Awesome.
+  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
-    font-style: italic;
-}
 
-.region-header,
-.region-footer {
-    color: @fontColorHeadFooter;
-}
 
-a {
-    text-decoration: none;
-    color: @fontColorHeadFooter;
+ /**
+  * Internal self contained modules, save in directory module/.
+  */
+ //@import "module/kmom01.less";
+ @import "module/stylechooser.less";  // Just an example module
 
-    &:visited {
-        color: @fontColorHeadFooter;
-    }
-    &:hover {
-        color: #71B3CC;
-    }
-}
 
-.rm-mobile a {
-    color: @fontColor;
-}
+
+ /**
+  * A responsive menu.
+  */
+ @import "@desinax/responsive-menu/less/responsive-menu.less";
+ //@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+ /**
+  * Import the typographic grid.
+  */
+ @import "@desinax/typographic-grid/less/typography-font-families.less";
+ @import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+ // Show the grid
+ .hgrid .inner-wrap {
+     @gridImage: "../img/magic-number-@{magicNumber}.png";
+     #desinax-hgrid.showGrid(@gridImage);
+ }
+
+
+
+ /**
+  * Base style to affect HTML elements on a general scale.
+  */
+ //@import "base/base.less";
+ //@import "base/base_kmom03.less";
+ @import "base/base_kmom05.less";
+
+
+
+ /**
+  * Import the vertical grid.
+  */
+ @import "@desinax/vertical-grid/less/grid.less";
+
+ // Default grid, change to fit your requirements.
+ //@columnWidth:   30;
+ //@gutterWidth:   10;
+ //@columns:       24;
+ //@gridType:      "float"; // "flex"
+
+
+
+ /**
+  * Layout style for general structure of header, navbar, main, footer
+  * and other regions of the page including route specific styles.
+  */
+ //@import "layout/layout.less";
+ //@import "layout/layout_kmom02.less";
+ //@import "layout/vgrid.less";
+ @import "layout/layout_kmom05.less";
+ //@import "layout/responsive.less";
+ //@import "layout/responsive_kmom04.less";
+ @import "layout/responsive_kmom05.less";
+ @import "layout/regions.less";     // To add style for ?regions
+
+
+
+ @import url('https://fonts.googleapis.com/css?family=Courgette|Shrikhand&subset=latin-ext');
+ @import url('https://fonts.googleapis.com/css?family=Special+Elite');
+ @import url('https://fonts.googleapis.com/css?family=Oleo+Script:400,700&subset=latin-ext');
+
+ /**
+  * My own settings, not currently in their own module.
+  */
