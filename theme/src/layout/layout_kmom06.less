@@ -5,8 +5,9 @@
 /**
  * Variables
  */
-@bgColorHeaderFooter: #e0dede;
-@bgColorMain: #fafafa;
+//@bgColorHeaderFooter: #e0dede;
+@bgColorMain: rgba(250, 250, 250, 0.5);
+
 
 /**
  * General layout
@@ -26,11 +27,11 @@
 }
 
 .rm-desktop li {
-    background-color: @bgColorHeaderFooter;
+    background-color: #EEDEB5;
 }
 
 .region-header {
-    background-color: @bgColorHeaderFooter;
+    background-color: #EEDEB5;
 }
 
 .inner-wrap {
@@ -44,7 +45,7 @@
 
 .inner-wrap-header {
     #desinax-vgrid.grid(100%);
-    background-color: @bgColorHeaderFooter;
+    background-color: #EEDEB5;
 }
 
 .vgrid .inner-wrap {
@@ -79,6 +80,22 @@
  /**
   * Main layout
   */
+
+h1, h2, h3 {
+    color: #3F8880;
+}
+
+h4, h5, h6 {
+    color: #CB924D;
+}
+
+@colorH1BorderBottom: #3F8880;
+@colorH2BorderBottom: #3F8880;
+@colorH3BorderBottom: #3F8880;
+@colorH4BorderBottom: #CB924D;
+@colorH5BorderBottom: #CB924D;
+@colorH6BorderBottom: #CB924D;
+
 .figure {
     margin-left: 0em;
 }
@@ -163,7 +180,7 @@ a {
     }*/
     &:hover {
         text-decoration: underline;
-        color: rgb(110, 110, 110);
+        color: #CB924D;
     }
 }
 
@@ -214,7 +231,7 @@ p {
 
 .outer-wrap-footer,
 .inner-wrap-footer {
-    background-color: @bgColorHeaderFooter;
+    background-color: #D8E9CB;
 }
 
 // Enable style from the module and optinally add customized layout

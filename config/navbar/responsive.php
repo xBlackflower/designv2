@@ -65,6 +65,21 @@ return [
                         "url" => "rapport/laddningstid",
                         "title" => "Rapport laddningstid och användbarhet.",
                     ],
+                    [
+                        "text" => "06_designprincip",
+                        "url" => "rapport/designprincip",
+                        "title" => "Rapport designprinciper.",
+                    ],
+                    [
+                        "text" => "07_designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Rapport designelement.",
+                    ],
+                    [
+                        "text" => "08_designprinciper",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Rapport designprinciper.",
+                    ],
                 ],
             ],
         ],
