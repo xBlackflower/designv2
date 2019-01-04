@@ -3,6 +3,10 @@ Revision history
 
 
 
+v6.0.0 (2019-01-04)
+-----------------------
+* Designelement theme for kmom06 is ready.
+
 v5.0.0 (2018-12-30)
 -----------------------
 * The blogg for kmom05 is ready.
