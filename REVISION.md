@@ -3,6 +3,10 @@ Revision history
 
 
 
+v6.0.1 (2019-01-05)
+-----------------------
+* Designprincip theme for kmom06 is ready.
+
 v6.0.0 (2019-01-04)
 -----------------------
 * Designelement theme for kmom06 is ready.

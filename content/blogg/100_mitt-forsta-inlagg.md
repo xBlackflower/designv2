@@ -26,10 +26,10 @@ Lipton i olika format {#anchor-hit}
 
 Lipton är min hund som är en Bichon Havanaise. Han fyller fyra år den 2 januari. Hans kennelnamn är Tequilaville´s On The Move.
 
-[FIGURE src="image/Lipton_sover.jpg?w=400&convolve=emboss-alt" class="figure right w50" alt="Lipton sover" caption="Filtret emboss-alt är använt på bilden."]
+[FIGURE src="image/Lipton_sover.jpg?w=400&convolve=emboss-alt" class="figure right rotate_left w50" alt="Lipton sover" caption="Filtret emboss-alt är använt på bilden."]
 
 Lipton är med mig på dagarna på jobbet och är allas kelgris.
 
-[FIGURE src="image/Lipton_sover.jpg?w=300&h=300&crop-to-fit&area=0,20,0,0&f=negate" class="figure center" alt="Lipton sover" caption="Filtret negativ är använt på bilden som är beskuren 20 procent på höger sida."]
+[FIGURE src="image/Lipton_sover.jpg?w=300&h=300&crop-to-fit&area=0,20,0,0&f=negate" class="figure center rotate_right" alt="Lipton sover" caption="Filtret negativ är använt på bilden som är beskuren 20 procent på höger sida."]
 
 [FIGURE src="image/Lipton_sover.jpg?w=400&h=400&crop-to-fit&area=30,50,20,0" class="figure" alt="Lipton sover" caption="Bilden är beskuren på tre sidor för att få med endast Liptons huvud."]

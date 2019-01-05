@@ -5,8 +5,9 @@
 /**
  * Variables
  */
-//@bgColorHeaderFooter: #e0dede;
-@bgColorMain: rgba(250, 250, 250, 0.5);
+@bgColorHeaderFooter: #674E3B;;
+@bgColorMain: rgba(250, 250, 250, 0.7);
+@ColorHeaderFooter: #B9A393;
 
 
 /**
@@ -27,11 +28,12 @@
 }
 
 .rm-desktop li {
-    background-color: #EEDEB5;
+    background-color: @bgColorHeaderFooter;
 }
 
 .region-header {
-    background-color: #EEDEB5;
+    background-color: @bgColorHeaderFooter;
+    color: @ColorHeaderFooter;
 }
 
 .inner-wrap {
@@ -42,7 +44,7 @@
 
 .inner-wrap-header {
     #desinax-vgrid.grid(100%);
-    background-color: #EEDEB5;
+    background-color: @bgColorHeaderFooter;
 }
 
 .vgrid .inner-wrap {
@@ -79,19 +81,19 @@
   */
 
 h1, h2, h3 {
-    color: #3F8880;
+    color: #674E3B;;
 }
 
 h4, h5, h6 {
-    color: #CB924D;
+    color: #674E3B;;
 }
 
-@colorH1BorderBottom: #3F8880;
-@colorH2BorderBottom: #3F8880;
-@colorH3BorderBottom: #3F8880;
-@colorH4BorderBottom: #CB924D;
-@colorH5BorderBottom: #CB924D;
-@colorH6BorderBottom: #CB924D;
+@colorH1BorderBottom: #674E3B;;
+@colorH2BorderBottom: #674E3B;;
+@colorH3BorderBottom: #674E3B;;
+@colorH4BorderBottom: #674E3B;;
+@colorH5BorderBottom: #674E3B;;
+@colorH6BorderBottom: #674E3B;;
 
 .figure {
     margin-left: 0em;
@@ -140,13 +142,13 @@ h4, h5, h6 {
 
 .region-sidebar-left,
 .region-sidebar-right {
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px rgb(175, 138, 110); //#aaaaaa;
     margin-left: 0.5%;
     padding-left: 4%;
 }
 
 .wrap-sidebar {
-    border: 1px solid #e0dede;
+    border: 1px solid #AF8A6E; //#e0dede;
 }
 
 .previous {
@@ -170,7 +172,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: rgb(110, 110, 110);
+    color: #AF8A6E; //#805B41; //rgb(110, 110, 110);
 
     /*&:visited {
         color: green;
@@ -210,6 +212,7 @@ p {
  */
 .region-footer {
     clear: both;
+    color: @ColorHeaderFooter;
 }
 
 .footer-column {
@@ -224,11 +227,12 @@ p {
 
 .region-footer a {
     text-decoration: underline;
+    color: @ColorHeaderFooter;
 }
 
 .outer-wrap-footer,
 .inner-wrap-footer {
-    background-color: #D8E9CB;
+    background-color: @bgColorHeaderFooter;
 }
 
 // Enable style from the module and optinally add customized layout
@@ -245,4 +249,16 @@ figure.codepen,
 figure.figure-codepen {
     &:extend(figure.figure);
     #desinax-figure.codepen();
+}
+
+.rotate_left {
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+}
+
+.rotate_right {
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
 }
