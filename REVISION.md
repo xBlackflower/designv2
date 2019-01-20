@@ -3,6 +3,10 @@ Revision history
 
 
 
+v10.0.0 (2019-01-20)
+-----------------------
+* Designeproject is ready.
+
 v6.0.1 (2019-01-05)
 -----------------------
 * Designprincip theme for kmom06 is ready.
